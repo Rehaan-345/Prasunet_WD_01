@@ -21,7 +21,7 @@
         }
 
         .bg {
-            background: linear-gradient(-1.5deg, rgba(9, 9, 121, 1) 0%, rgba(0, 212, 255, 1) 50%, rgba(9, 9, 121, 1) 100%);
+            background: linear-gradient(0deg, rgba(9, 9, 121, 1) 0%, rgba(0, 212, 255, 1) 50%, rgba(9, 9, 121, 1) 100%);
             background-repeat: no-repeat;
         }
 
@@ -135,7 +135,7 @@
         }
 
         window.addEventListener("scroll", () => {
-            degvalue = ((this.scrollY) / 6);
+            degvalue = ((this.scrollY) / 6)-1.4;
 
             if (degvalue < 200) {
                 var newgdvalue = `linear-gradient(${degvalue}deg, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 50%, rgba(9,9,121,1) 100%)`;
