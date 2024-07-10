@@ -137,16 +137,16 @@
         window.addEventListener("scroll", () => {
             degvalue = ((this.scrollY) / 6)-1.4;
 
-            if (degvalue < 200) {
+            if (degvalue < 198.6) {
                 var newgdvalue = `linear-gradient(${degvalue}deg, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 50%, rgba(9,9,121,1) 100%)`;
             }
-            else if (degvalue < 400) {
+            else if (degvalue < 398.6) {
                 var newgdvalue = `linear-gradient(${degvalue}deg, rgb(57 57 34) 0%, rgba(255,255,0,1) 50%, rgb(57 57 34) 100%)`;
             }
-            else if (degvalue < 600) {
+            else if (degvalue < 598.6) {
                 var newgdvalue = `linear-gradient(${degvalue}deg, rgba(27,98,0,1) 0%, rgba(167,255,134,1) 50%, rgba(27,98,0,1) 100%)`;
             }
-            else if (degvalue < 800) {
+            else if (degvalue < 798.6) {
                 var newgdvalue = `linear-gradient(${degvalue}deg, rgba(85,8,81,1) 0%, rgba(255,44,240,1) 50%, rgba(85,8,81,1) 100%)`;
             }
             for (var i in dupdated) {
